@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather App</title>
+
+		<!-- fontawesome -->
+		<script
+			src="https://kit.fontawesome.com/39daee9401.js"
+			crossorigin="anonymous"></script>
+
+		<!-- googlefonts-montserrat -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet" />
+
+		<!-- mystyle -->
+		<link rel="stylesheet" href="./weather_app_107.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="top">
+				<h1>weather app</h1>
+				<div class="main-info">
+					<div>
+						<h3 class="city-name">test</h3>
+						<input type="text" placeholder="Wpisz nazwę miasta..." /><button>
+							Wyślij
+						</button>
+						<p class="warning">test</p>
+					</div>
+					<img
+						src="./img_weather_app_107/unknown.png"
+						alt="Obrazek przedstawiający pogodę"
+						class="photo" />
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="headings">
+					<p>Weather:</p>
+					<p>Temperature:</p>
+					<p>Humidity:</p>
+				</div>
+				<div class="weather-info">
+					<p class="weather"></p>
+					<p class="temperature"></p>
+					<p class="humidity"></p>
+				</div>
+			</div>
+		</div>
+
+		<!-- axios -->
+		<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+		<script src="./weather_app_107.js"></script>
+	</body>
+</html>
