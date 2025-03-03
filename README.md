@@ -1,6 +1,7 @@
 # WeatherApp
 
 ##Application sreenshots:
+
 Weather for Wrocław:
 ![main_view](https://github.com/user-attachments/assets/f1bf56b8-7c72-46d4-ba61-8b2b22686ea7)
 
